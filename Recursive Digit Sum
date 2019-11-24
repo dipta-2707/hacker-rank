@@ -10,7 +10,7 @@ long long int n;
 scanf("%lld",&n);
 long int s=0;
 s=rec(n);
-while(s>10)
+while(s>=10)
  {
    s=rec(s);
 
